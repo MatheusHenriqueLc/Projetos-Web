@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f1f6;
+  margin: 0;
+  padding: 30px;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.10);
+}
+h1 { color: #43054e; text-align: center; }
+label { display: block; margin-top: 15px; }
+input {
+  width: 100%; padding: 12px; margin-top: 8px;
+  border: 1px solid #ccc; border-radius: 6px;
+}
+button {
+  width: 100%; margin-top: 20px; padding: 12px;
+  background: #662c92; color: white;
+  border: 0; border-radius: 6px; cursor: pointer;
+}
+button:hover { background: #43054e; }
+#resultado,
+#resultadoMedia {
+  margin-top: 20px; padding: 15px;
+  background: #f3f4f6; border-radius: 6px;
+}
+.erro { color: #b00020; }
+
+JS
+
+// =====================================================
+// 4.1. Primeiro teste no console
+// =====================================================
+console.log("Olá, estudante de ADS!");
+console.log("Minha primeira aplicação JavaScript.");
+
+// =====================================================
+// Laboratório 1: Cadastro simples de usuário
+// =====================================================
+const nome = "Ana Souza";
+const email = "exemplo@email.com";
+let idade = 19;
+let usuarioAtivo = true;
+const anoNascimento = 2007;
+const idadeEstimada = 2026 - anoNascimento;
+
+console.log("DADOS DO USUÁRIO");
+console.log("Nome:", nome);
+console.log("E-mail:", email);
+console.log("Idade:", idade);
+console.log("Usuário ativo:", usuarioAtivo);
+console.log("Ano de nascimento:", anoNascimento);
+console.log("Idade estimada em 2026:", idadeEstimada);
