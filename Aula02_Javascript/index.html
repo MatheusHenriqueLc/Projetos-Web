@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 02 - JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LABORATÓRIO 1 — Verificador de idade -->
+  <main class="container">
+    <h1>Laboratório 1 — Verificador de idade</h1>
+    <label for="idade">Idade</label>
+    <input id="idade" type="number" placeholder="Digite sua idade">
+    <button id="verificar">Verificar</button>
+    <p id="resultado"></p>
+  </main>
+
+  <!-- LABORATÓRIO 2 — Calculadora de média -->
+  <main class="container">
+    <h1>Laboratório 2 — Calculadora de média</h1>
+    <label for="nota1">Nota 1</label>
+    <input id="nota1" type="number" step="0.1" placeholder="0 a 10">
+    <label for="nota2">Nota 2</label>
+    <input id="nota2" type="number" step="0.1" placeholder="0 a 10">
+    <label for="nota3">Nota 3</label>
+    <input id="nota3" type="number" step="0.1" placeholder="0 a 10">
+    <button id="calcularMedia">Calcular média</button>
+    <p id="resultadoMedia"></p>
+  </main>
+
+  <!-- EXERCÍCIOS DE FIXAÇÃO -->
+  <main class="container">
+    <h1>Exercícios de fixação</h1>
+
+    <h2>A. Par ou ímpar</h2>
+    <label for="numeroA">Número inteiro</label>
+    <input id="numeroA" type="number">
+    <button id="btnA">Verificar</button>
+    <p id="resultadoA"></p>
+
+    <h2>B. Desconto de 10% (a partir de R$ 200)</h2>
+    <label for="valorB">Valor da compra (R$)</label>
+    <input id="valorB" type="number" step="0.01">
+    <button id="btnB">Calcular</button>
+    <p id="resultadoB"></p>
+
+    <h2>C. Controle de acesso</h2>
+    <label for="idadeC">Idade</label>
+    <input id="idadeC" type="number">
+    <label class="check"><input id="cadastroC" type="checkbox"> Cadastro ativo</label>
+    <button id="btnC">Verificar acesso</button>
+    <p id="resultadoC"></p>
+
+    <h2>D. Saudação</h2>
+    <label for="nomeD">Seu nome</label>
+    <input id="nomeD" type="text" placeholder="Digite seu nome">
+    <button id="btnD">Saudar</button>
+    <p id="resultadoD"></p>
+
+    <h2>E. Classificação de temperatura</h2>
+    <label for="tempE">Temperatura (°C)</label>
+    <input id="tempE" type="number" step="0.1">
+    <button id="btnE">Classificar</button>
+    <p id="resultadoE"></p>
+
+    <h2>F. Validação de nota</h2>
+    <label for="notaF">Nota</label>
+    <input id="notaF" type="number" step="0.1">
+    <button id="btnF">Validar</button>
+    <p id="resultadoF"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
